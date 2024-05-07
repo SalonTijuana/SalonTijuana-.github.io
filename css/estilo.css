@@ -1,0 +1,201 @@
+body{
+	background-image:url("../imagenes/fondo 4.jpg");
+	color:#154360;
+	font-family:"Lucida Console", "Courier New", monospace;
+	font-size:40px;
+}
+p{
+	text-align:justify;
+	font-size:20px;
+}
+
+hr{
+	border: 3px solid #17202A;
+	/*border-radius es para el terminado de las orillas de la linea el radiose expresa en pixeles. */
+	border-radius: 5px;
+}
+table,tr,td{
+	
+	border: 3px solid #3B2DE1;
+	border-spacing:0px;
+	/*COLOR DE FONDO DE LAS CELDAS*/
+	background-color:#AED6F1;
+	text-align:center;
+	font-size:20px;
+}
+th{
+	background-color:#38EFFE;
+}
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+}
+ol{
+	list-style-type:lower-alpha;
+	list-style-position:inside;
+}
+@font-face{
+	font-family:mi fuente;
+	src:url("../fonts/GIGI.ttf");
+}
+.pie{
+	text-align:center;
+	font-size:15px
+	font-weight:bold;
+}
+.encabezado{
+	text-align:center;
+	font-size:30px
+	font-weight:bold;
+}
+.img-marquee{
+	height:400px; 
+	width:600px;
+}
+.img-producto{
+	height:200px; 
+	width:200px;
+	border-radius:30%;
+}
+.img-controller{
+	height:50px;
+	width:50px;
+}
+div#top{
+	font-family:mi fuente;
+	padding:30px;
+	width:100%;
+	height: 70px;
+	background-color:#BF03E0;
+	background-image:radial-gradient(#861FE7,#CA62EE);
+	
+}
+div#piediv{
+	padding:20px;
+	width:100%;
+	height:70px;
+	background-color:#BF03E0;
+	background-image:linear-gradient(#861FE7,#CA62EE);
+	
+}
+div#principal{
+	width:100%;
+	background-image:url("../imagenes/fondo 4.jpg");
+}
+.caja{
+	height:350px;
+	width:300px;
+	background:#eee;
+	border: 1px solid #eee;
+	margin: 5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	/*hace que el padding y el borde pasen a formar
+	parte del calculode la caja  y no de la suma    */
+	box-sizing:border-box;
+}
+.contecarrousel{
+	width:100%;
+	height:400px;
+	/*hace que el navegador oculte todos los contenidos que salen del div*/
+	overflow:hidden;
+	box-sizing:border-box;
+}
+
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouseltarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemcarrouselarrow>i:hover{
+	cursor:pointer;
+}
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.contecarrouselcontroller>a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemcarrouselarrows > a > i{
+	color:white;
+}
+.img.controller{
+	height:50%;
+	width:50%;
+}
+.caja3{
+	
+	width:500px;
+	background:#B7917C;
+	border: 5px solid #E4AA85;
+	margin: 5px;
+	color:black;
+	text-align:center;
+	display:flex;
+}
+.caja2{
+	width:100%;
+	background:#B7917C;
+	border: 2px solid #B7917C;
+	margin: 5px;
+	color:black;
+	text-align:left;
+	display:inline-block;
+	font-size:20px;
+}
+.caja2-nombre{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:#604A39;
+	font-weight:bold;
+	text-align:left;
+}
+a:link{
+	text-decoration:none;
+}
+	
